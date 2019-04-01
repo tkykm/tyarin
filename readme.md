@@ -54,6 +54,8 @@ https://docs.microsoft.com/ja-jp/rest/api/monitor/activitylogs/list
 ## image
 ![](https://s3-ap-northeast-1.amazonaws.com/hackmd-jp1/uploads/upload_469a79fec45078077ae3a583a9228b24.png)
 
-You can click Resource Link then jump to azure portal and see the resource details
+You can click Resource Link then jump to azure portal and see the resource details.
+Putting creator name and date tags Automaticaly
 
+![](https://s3-ap-northeast-1.amazonaws.com/hackmd-jp1/uploads/upload_2e933cf0b23fa5129d04f9fa22277cad.png)
 
