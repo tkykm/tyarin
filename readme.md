@@ -17,20 +17,20 @@ https://docs.microsoft.com/ja-jp/rest/api/monitor/activitylogs/list
 
 ## Detail of Functions
 - This function is triggered by Cloud PubSub
-- To accuire access token from Azure Client ID and Secret
-- To get list of azure subscriptions that the client can read 
-- To do below actions each subscription
-- To get activity logs filterd (current time - FROM_DIFF_MINUTES) to current time
-- To get all supported api versions of all resource providers
-- To find events that properties.statusCode is 'Created'. I call this 'created events'
-- To list events that correlationId is same and status.value is 'succeeded' and ResourceProvider is not 'Microsoft.Resources' againt each event of 'created events' since to get relevant resources
-- To get caller and eventtime about each event of 'created events'
-- To make list of created resources with resourceid, caller, eventtime 
+- Accuire access token from Azure Client ID and Secret
+- Get list of azure subscriptions that the client can read 
+- Do below actions each subscription
+- Get activity logs filterd (current time - FROM_DIFF_MINUTES) to current time
+- Get all supported api versions of all resource providers
+- Find events that properties.statusCode is 'Created'. I call this 'created events'
+- List events that correlationId is same and status.value is 'succeeded' and ResourceProvider is not 'Microsoft.Resources' againt each event of 'created events' since to get relevant resources
+- Get caller and eventtime about each event of 'created events'
+- Make list of created resources with resourceid, caller, eventtime 
 - Deduplication the list by resourceid
-- To do below actions each resource of the list
-- To get properties of resource utilizing resourceids
-- To put new properties with caller tag and eventime tag if the properties not has caller tag and eventtime tag
-- To nofity slack that a resource has been created
+- Do below actions each resource of the list
+- TGet properties of resource utilizing resourceids
+- Put new properties with caller tag and eventime tag if the properties not has caller tag and eventtime tag
+- Nofity slack that a resource has been created
 
 ### Env Varibale
 
